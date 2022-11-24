@@ -50,7 +50,7 @@ export default () => {
   return (
     <Container>
       <Content>
-        <SixColumns>
+        {/* <SixColumns>
           <Column>
             <ColumnHeading>Main</ColumnHeading>
             <LinkList>
@@ -132,13 +132,12 @@ export default () => {
             </SubscribeNewsletterContainer>
           </SubscribeNewsletterColumn>
         </SixColumns>
-        <Divider />
+        <Divider /> */}
         <ThreeColRow>
           <LogoContainer>
-            <LogoImg src={LogoImage} />
-            <LogoText>TeachingBear Inc.</LogoText>
+            <LogoText>WF SCHOOL inc.</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2018 TeachingBear Inc. All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2022 WF SCHOOL Inc. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />

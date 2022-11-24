@@ -61,40 +61,30 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Checkout the Menu",
   tabs = {
-    Advanced: [
+    Courses: [
       {
         imageSrc:
-          "https://miro.medium.com/max/1346/1*Zy0gFGzNwZAwjeCgpHhIHw.png",
-        title: "Tensorflow",
-        content: "Machine Learning",
-        price: "2499.99",
+          "https://media-cdn.t24.com.tr/media/library/2019/05/1557380971629-dolar.jpg",
+        title: "Increment in USD",
+        content: "",
+        price: "$995.0",
         rating: "5.0",
         reviews: "12",
         url: "#"
-      },
-      {
-        imageSrc:
-          "https://researchhub.org/wp-content/uploads/2022/03/keras-logo.png",
-        title: "Keras",
-        content: "This course is for you if you are new to Machine Learning but want to learn it without all the math.",
-        price: "$999.99",
-        rating: "4.9",
-        reviews: "17",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://numpy.org/images/logo.svg",
-        title: "Numpy",
-        content: "Data Analitycs with Numpy",
-        price: "$499.99",
-        rating: "4.8",
-        reviews: "22",
-        url: "#"
-      },
+      }
     ],
-    Starters: getRandomCards(),
-    Databases: getRandomCards(),
+    Services: [
+      {
+        imageSrc:
+          "https://blog.wangwanglaifu.com/wp-content/uploads/2020/12/mercury-logo.png",
+        title: "Create your bussiness in USA",
+        content: "Create LLC and Bank Account",
+        price: "$990",
+        rating: "5.0",
+        reviews: "12",
+        url: "#"
+      }
+    ]
   }
 }) => {
   /*
